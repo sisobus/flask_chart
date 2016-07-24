@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>차트연습</title>
+        <link href="{{ url_for('static',filename='css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+        <script src="{{ url_for('static',filename='js/jquery-1.11.0.min.js') }}"></script>
+        <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('static',filename='js/Chart.min.js') }}"></script>
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
